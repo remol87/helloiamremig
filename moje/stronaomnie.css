@@ -1,0 +1,101 @@
+:root {
+    box-sizing: border-box;
+    color: black;
+    scroll-behavior: smooth;
+    
+}
+*::after ::before {
+    box-sizing: inherit;
+}
+body {
+    background-color: whitesmoke;
+    width: 80%;
+    margin: auto;
+    
+}
+
+#obrazek img{
+    width: 100%;
+    height: 15rem;
+    display: block;
+  
+}
+.navbar {
+    display: flexbox;
+    height: 3rem;
+    background-color: black;
+    margin-bottom: 1rem;  
+    border-radius: 10px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    right: 0;
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    list-style-type: none;
+    
+}
+.navbar ul li a {
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 1.4rem;
+    margin: auto;
+    
+}
+
+.navbar ul li a:hover {
+    color: greenyellow;
+    transform: scale(1.07);
+    transition: all 1s;
+}
+.aboutme h2 {
+    display: block;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+    margin-left: auto;  
+    margin-right: auto;
+}
+#aboutme {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: cursive;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+#aboutme h2 {
+    width: 100%;
+}
+#mojefoto {
+    margin: 1rem;
+    width: 30%;
+    
+}
+#mojefoto img {
+    width: 200px;
+    height: 200px;
+}
+#mojopis {
+    margin: 1 rem;
+    text-align: justify;
+    
+}
+
